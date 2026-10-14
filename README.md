@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" height="128" alt="E-Invoice Checker MCP"></p>
+
 # E-Invoice Checker MCP server
 
 Remote [Model Context Protocol](https://modelcontextprotocol.io) server for **European e-invoices**: detect, parse, validate and render

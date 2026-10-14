@@ -4,16 +4,61 @@
   "description": "Detect, parse, validate and render European e-invoices (XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3.0, UBL, CII, KSeF FA(3)) with the official KoSIT, OpenPeppol and KSeF rule sets.",
   "version": "1.0.0",
   "homepage": "https://einvoicechecker.com/mcp/",
-  "remotes": [{ "type": "streamable-http", "url": "https://einvoicechecker.com/v1/mcp", "headers": [{ "name": "Authorization", "description": "Bearer <API key> (optional; free key at https://einvoicechecker.com/developers/). Without it the anonymous rate limit applies.", "isRequired": false, "isSecret": true }] }],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://einvoicechecker.com/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <API key> (optional; free key at https://einvoicechecker.com/developers/). Without it the anonymous rate limit applies.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
   "tools": [
-    { "name": "list_supported_formats", "description": "Supported formats, rule sets, plans and tool costs." },
-    { "name": "detect_invoice", "description": "Identify format, syntax, profile and country standard of an e-invoice (XML text or PDF base64)." },
-    { "name": "parse_invoice", "description": "Extract the invoice as normalised JSON: parties, lines, VAT breakdown, totals, payment." },
-    { "name": "validate_invoice", "description": "Validate with the official rule set (KoSIT, OpenPeppol BIS 3.0, KSeF FA(3)); every failed rule with id, severity, XPath." },
-    { "name": "render_invoice_html", "description": "Readable A4 invoice document as HTML in en/de/fr/pl/nl." },
-    { "name": "render_invoice_pdf", "description": "Readable PDF of the invoice, returned as a base64 resource (counts as 2 requests)." },
-    { "name": "my_usage", "description": "Plan, quota, usage and subscription of the connected API key." }
+    {
+      "name": "list_supported_formats",
+      "description": "Supported formats, rule sets, plans and tool costs."
+    },
+    {
+      "name": "detect_invoice",
+      "description": "Identify format, syntax, profile and country standard of an e-invoice (XML text or PDF base64)."
+    },
+    {
+      "name": "parse_invoice",
+      "description": "Extract the invoice as normalised JSON: parties, lines, VAT breakdown, totals, payment."
+    },
+    {
+      "name": "validate_invoice",
+      "description": "Validate with the official rule set (KoSIT, OpenPeppol BIS 3.0, KSeF FA(3)); every failed rule with id, severity, XPath."
+    },
+    {
+      "name": "render_invoice_html",
+      "description": "Readable A4 invoice document as HTML in en/de/fr/pl/nl."
+    },
+    {
+      "name": "render_invoice_pdf",
+      "description": "Readable PDF of the invoice, returned as a base64 resource (counts as 2 requests)."
+    },
+    {
+      "name": "my_usage",
+      "description": "Plan, quota, usage and subscription of the connected API key."
+    }
   ],
   "privacy": "https://einvoicechecker.com/privacy/",
-  "terms": "https://einvoicechecker.com/terms/"
+  "terms": "https://einvoicechecker.com/terms/",
+  "icons": [
+    {
+      "src": "https://einvoicechecker.com/assets/mcp-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://einvoicechecker.com/assets/mcp-logo.svg",
+      "type": "image/svg+xml"
+    }
+  ]
 }
