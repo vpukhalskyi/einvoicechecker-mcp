@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "einvoicechecker",
+  "version": "1.0.1",
+  "description": "EU e-invoice tools: detect, parse, validate and render XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3.0, UBL, CII and KSeF FA(3) invoices with the official KoSIT, OpenPeppol and KSeF rule sets.",
+  "author": { "name": "Vladyslav Pukhalskyi", "url": "https://einvoicechecker.com" },
+  "homepage": "https://einvoicechecker.com/mcp/",
+  "repository": "https://github.com/vpukhalskyi/einvoicechecker-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "e-invoicing", "xrechnung", "zugferd", "factur-x", "peppol", "ksef", "en16931", "ubl", "cii", "invoice-validation"]
+}

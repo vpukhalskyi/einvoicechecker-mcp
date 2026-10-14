@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "einvoicechecker": {
+      "type": "http",
+      "url": "https://einvoicechecker.com/v1/mcp"
+    }
+  }
+}
