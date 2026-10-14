@@ -3,7 +3,7 @@
   "name": "com.einvoicechecker/einvoice",
   "title": "E-Invoice Checker",
   "description": "Validate, parse and render EU e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3.0, KSeF.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://einvoicechecker.com/mcp/",
   "remotes": [
     {
@@ -18,5 +18,9 @@
         }
       ]
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/vpukhalskyi/einvoicechecker-mcp",
+    "source": "github"
+  }
 }
